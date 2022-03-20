@@ -20,11 +20,15 @@ How the trip went is like this. By the process so far, it seems that I could com
 * Description of the folders
 
 Tools:
+
 	Contains the C source file and Makefile of the self-made tools used for the build.
 win_xv6:
+
 	Contains xv6 source files created for Windows.
 xv6:
+
 	The working directory for building xv6. Copy all xv6 source files here.
+
 
 * Required software
 
