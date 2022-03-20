@@ -1,5 +1,6 @@
 # xv6-windows
 How to build and run Unix-xv6 with Command Prompt on Windows
+
 * Introduction
 
 In 1975, Bell Labs released Unix Version 6 (also known as Sixth Edition Unix). It was widely used as an educational tool at universities such as the University of California, Berkeley. Unix-xv6 to be built this time is Unix Version 6 ported to multiprocessor x86 by ANSI C, and is still used as an educational tool at universities such as Massachusetts Institute of Technology.
@@ -32,7 +33,7 @@ https://github.com/mit-pdos/xv6-public
 Download xv6-public-master.zip from the above URL page.
 Copy all the downloaded xv6 files to the directory xv6.
 
-2)MinGW
+2) MinGW
 Where to get MinGW
 https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/
 Download mingw-get-setup.exe from the above URL page.
@@ -59,11 +60,17 @@ qemu;
 iss set in the PATH.
 
 @echo off
+
 echo Setting up environment for xv6 build...
+
 set PATH=C:\MinGW\bin;%PATH%
+
 set PATH=C:\Users\uno\Desktop\Min\Tools\;%PATH%
+
 set PATH=C:\Program Files\qemu;%PATH%
+
 cd /D C:\Users\uno\Desktop\Min\xv6
+
 
 * Build method
 
@@ -81,6 +88,7 @@ This batch command automatically compiles the tools included in Tools.
 5) Perform the build work.
 
 make
+
 make qemu
 
 These two commands will start xv6.
@@ -88,6 +96,7 @@ These two commands will start xv6.
 * Reference materials
 
 How to build and run Unix-xv6 with Command Prompt on Windows
+
 Hiroshi Uno
 
 You can get it from amazon.
