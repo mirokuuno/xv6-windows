@@ -63,10 +63,14 @@ I installed it in the folder C: \Program Files\qemu.
 * Setting up
 
 As in the example below
+
 MinGW \ bin;
+
 Tools \;
+
 qemu;
-iss set in the PATH.
+
+are set in the PATH.
 
 @echo off
 
