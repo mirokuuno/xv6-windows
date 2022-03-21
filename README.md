@@ -40,6 +40,7 @@ Download xv6-public-master.zip from the above URL page.
 Copy all the downloaded xv6 files to the directory xv6.
 
 2) MinGW
+
 Where to get MinGW
 
 https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/
@@ -48,6 +49,7 @@ Download mingw-get-setup.exe from the above URL page.
 I installed it in C: \MinGW.
 
 3) BusyBox
+
 Where to get BusyBox
 
 http://frippery.org/busybox/
@@ -56,6 +58,7 @@ Download busybox.exe or busybox64.exe from the above URL page. If you are using 
 Move the downloaded busybox.exe to Tools folder.
 
 4) QEMU
+
 Where to get QEMU
 
 https://www.qemu.org/download/#windows
